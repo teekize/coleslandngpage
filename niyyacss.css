@@ -1,3 +1,4 @@
+
 *,
 *::before,
 *::after {
@@ -386,13 +387,14 @@ template {
 }
 
 #home {
-  background-image: url(https://res.cloudinary.com/dt5yeftv3/image/upload/v1623401500/Cole/cole_u1vyoe.jpg);
+  background-image: url(https://res.cloudinary.com/dt5yeftv3/image/upload/v1623438424/Cole/cole_y1qj3x.jpg);
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-attachment: fixed;
   color: #fff;
   width: 100%;
-    height: auto;
+
+  
 }
 
 #home .section-heading {
@@ -400,7 +402,7 @@ template {
 }
 /*stroke-dasharray: 700;
   stroke-dashoffset: 1000;*/
-@media all and (min-width: 450px) {
+@media all and (min-width: 400px) {
   #home {
     background-size: cover;
   }
@@ -1367,146 +1369,162 @@ p,
   border-radius: 5px;
   padding: 8px 20px;
   margin: 3px;*/
-  #auditorium {
-    width: 100%;
-    
-    padding-top: 8em;
-    padding-bottom: 20em;
-    background-image: url(https://res.cloudinary.com/dt5yeftv3/image/upload/v1623401114/Cole/pink_xsbso3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
+#auditorium {
+  width: 100%;
   
+  padding-top: 8em;
+  padding-bottom: 20em;
+  background-image: url(https://res.cloudinary.com/dt5yeftv3/image/upload/v1623444138/Cole/pink_xsbso3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#auditorium .content-container {
+  padding: 3em;
+  background-color: #fff;
+  margin: 0 auto;
+  position: relative;
+}
+/*stroke-dasharray: 700;
+  stroke-dashoffset: 1000;*/
+#auditorium .content {
+  text-align: center;
+  max-width: 160px;
+  margin: 0 auto;
+}
+
+@media all and (min-width: 768px) {
   #auditorium .content-container {
-    padding: 3em;
-    background-color: #fff;
-    margin: 0 auto;
-    position: relative;
+    width: 80%;
   }
-  /*stroke-dasharray: 700;
-    stroke-dashoffset: 1000;*/
-  #auditorium .content {
-    text-align: center;
-    max-width: 160px;
-    margin: 0 auto;
+}
+/*  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;*/
+@media all and (min-width: 992px) {
+  #auditorium {
+    height: 900px;
   }
-  
-  @media all and (min-width: 700px) {
-    #auditorium .content-container {
-      width: 80%;
-    }
+  #auditorium .content-container {
+    width: 500px;
+    top: 20%;
+    transform: translateY(-20%);
   }
-  /*  display: inline-block;
-    border-radius: 5px;
-    padding: 8px 20px;
-    margin: 3px;*/
-  @media all and (min-width: 992px) {
-    #auditorium {
-      height: 900px;
-    }
-    #auditorium .content-container {
-      width: 500px;
-      top: 20%;
-      transform: translateY(-20%);
-    }
+}
+
+@media all and (min-width: 1200px) {
+  #auditorium .content-container {
+    width: 580px;
   }
-  
-  @media all and (min-width: 1200px) {
-    #auditorium .content-container {
-      width: 580px;
-    }
-  }
-  
-  .auditorium-icon {
-    width: 40px;
-  }
-  /*stroke-dasharray: 700;
-    stroke-dashoffset: 1000;*/
-  .auditorium-address {
-    font-style: monospace;
-  }
-  
-  .auditorium-phone {
-    font-size: 0.9em;
-  }
-  
-  .auditorium-email {
-    font-size: 0.8em;
-  }
-  footer {
-    padding-top: 3em;
-    text-align: center;
-    background-color: #fff1e2;
-    color: #464646;
-  }
-  /*stroke-dasharray: 700;
-    stroke-dashoffset: 1000;*/
-  .footer-title {
-    font-family: Allerta, sans-serif;
-    font-size: 3.2em;
-    text-transform: uppercase;
-  }
-  
-  .social-icon-container {
-    margin-bottom: 3em;
-  }
-  
-  .email-icon {
-    width: 40px;
-    margin-top: -5px;
-  }
-  /*stroke-dasharray: 700;
-    stroke-dashoffset: 1000;*/
-  .footer-icon {
-    display: inline-block;
-    font-size: 1.3em;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    text-align: center;
-    margin: 0 4px;
-    color: #fff;
-    background-color: #464646;
-  }
-  
-  .footer-icon span {
-    display: inline-block;
-    margin: 7px 0;
-  }
-  
-  .footer-icon a {
-    color: #fff;
-    transition: color 0.3s ease-in-out;
-  }
-  /*stroke-dasharray: 700;
-    stroke-dashoffset: 1000;*/
-  .register-today-btn {
-    text-transform: uppercase;
-    margin: 2em auto;
-    padding: 1.5em;
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: 800;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-    color: #464646;
-    border: 1px solid #464646;
-  }
-  /*  display: inline-block;
-    border-radius: 5px;
-    padding: 8px 20px;
-    margin: 3px;*/
-  .register-today-btn:hover {
-    color: #fff;
-    background-color: #464646;
-    text-decoration: none;
-  }
-  
-  .copyright {
-    display: block;
-    padding: 5em;
-    font-size: 0.8em;
-    font-style: italic;
-  }
-  /*stroke-dasharray: 700;
-    stroke-dashoffset: 1000;*/
+}
+
+.auditorium-icon {
+  width: 40px;
+}
+/*stroke-dasharray: 700;
+  stroke-dashoffset: 1000;*/
+.auditorium-address {
+  font-style: italic;
+}
+
+.auditorium-phone {
+  font-size: 0.9em;
+}
+
+.auditorium-email {
+  font-size: 0.8em;
+}
+
+#sponsors {
+  padding: 4.5em 2em;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+
+/*  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;*/
+
+
+
+
+footer {
+  padding-top: 3em;
+  text-align: center;
+  background-color: #fff1e2;
+  color: #464646;
+}
+/*stroke-dasharray: 700;
+  stroke-dashoffset: 1000;*/
+.footer-title {
+  font-family: Allerta, sans-serif;
+  font-size: 3.2em;
+  text-transform: uppercase;
+}
+
+.social-icon-container {
+  margin-bottom: 3em;
+}
+
+.email-icon {
+  width: 40px;
+  margin-top: -5px;
+}
+/*stroke-dasharray: 700;
+  stroke-dashoffset: 1000;*/
+.footer-icon {
+  display: inline-block;
+  font-size: 1.3em;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 4px;
+  color: #fff;
+  background-color: #464646;
+}
+
+.footer-icon span {
+  display: inline-block;
+  margin: 7px 0;
+}
+
+.footer-icon a {
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+/*stroke-dasharray: 700;
+  stroke-dashoffset: 1000;*/
+.register-today-btn {
+  text-transform: uppercase;
+  margin: 2em auto;
+  padding: 1.5em;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 800;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  color: #464646;
+  border: 1px solid #464646;
+}
+/*  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;*/
+.register-today-btn:hover {
+  color: #fff;
+  background-color: #464646;
+  text-decoration: none;
+}
+
+.copyright {
+  display: block;
+  padding: 5em;
+  font-size: 0.8em;
+  font-style: italic;
+}
+/*stroke-dasharray: 700;
+  stroke-dashoffset: 1000;*/
