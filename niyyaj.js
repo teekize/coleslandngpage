@@ -1,6 +1,6 @@
 (window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll > 700) {
+    if (scroll > 100) {
       $("nav").addClass("nav-scrolled");
     } else {
       $("nav").removeClass("nav-scrolled");
